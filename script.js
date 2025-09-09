@@ -2,7 +2,6 @@ const dlg = document.getElementById('contactDialog');
 const openBtn = document.getElementById('openDialog'); 
 const closeBtn = document.getElementById('closeDialog');
 const form = document.getElementById('contactForm');
-console.log(dlg, openBtn, closeBtn); 
 let lastActive = null;
 openBtn.addEventListener('click', () => {
 lastActive = document.activeElement;
