@@ -61,3 +61,12 @@ line-height:1.5;
 /* Вертикальные отступы секций по токенам */
 .section{ padding-block:var(--space-5); }
 .section__title{ margin:0 0 var(--space-3); }
+header:hover {
+  text-color: red; 
+}
+header:active {
+  text-color: yellow;
+}
+header:focus-visible {
+  border-color: blue; 
+}
