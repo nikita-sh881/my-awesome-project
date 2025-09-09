@@ -70,3 +70,33 @@ header:active {
 header:focus-visible {
   border-color: blue; 
 }
+nav:hover {
+  text-color: red; 
+}
+nav:active {
+  text-color: yellow;
+}
+nav:focus-visible {
+  border-color: blue; 
+}
+a:hover {
+  text-color: red; 
+}
+a:active {
+  text-color: yellow;
+}
+a:focus-visible {
+  border-color: blue; 
+}
+a {
+  scroll-behavior: smooth;
+}
+nav {
+  scroll-behavior: smooth;
+}
+a:target {
+  background-color: yellow; 
+}
+nav:target {
+  background-color: yellow; 
+}
