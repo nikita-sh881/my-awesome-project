@@ -3,7 +3,7 @@ const openBtn = document.getElementById('openDialog');
 const closeBtn = document.getElementById('closeDialog');
 const form = document.getElementById('contactForm');
 let lastActive = null;
-openBtn.addEventListener('click', () => {
+openBtn.addEventListener('click', (e) => {
 lastActive = document.activeElement;
 dlg.showModal();
 dlg.querySelector('input,select,textarea,button')?.focus();
