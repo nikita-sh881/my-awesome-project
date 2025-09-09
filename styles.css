@@ -103,3 +103,14 @@ nav:target {
 dialog::backdrop {
   background-color: salmon;
 }
+.hero{
+background-image:
+linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.15)),
+image-set(
+url("assets/card.jpg") 1x, /* обычные экраны */
+url("assets/card.jpg") 2x /* плотные экраны */
+);
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+}
