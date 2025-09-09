@@ -100,6 +100,6 @@ a:target {
 nav:target {
   background-color: yellow; 
 }
-dialog::backdrop {
+.dialog::backdrop {
   background-color: salmon;
 }
