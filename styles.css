@@ -79,22 +79,22 @@ nav:active {
 nav:focus-visible {
   border-color: blue; 
 }
-a:hover {
+li:hover {
   text-color: red; 
 }
-a:active {
+li:active {
   text-color: yellow;
 }
-a:focus-visible {
+li:focus-visible {
   border-color: blue; 
 }
-a {
+li {
   scroll-behavior: smooth;
 }
 nav {
   scroll-behavior: smooth;
 }
-a:target {
+li:target {
   background-color: yellow; 
 }
 nav:target {
