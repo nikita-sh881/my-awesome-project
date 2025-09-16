@@ -104,6 +104,8 @@ dialog::backdrop {
   background-color: salmon;
 }
 .hero{
+width: 100px; 
+height: 100px;
 background-image: url(assets\card.jpg); 
 background-position:center;
 background-size:cover;
