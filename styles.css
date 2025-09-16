@@ -106,7 +106,7 @@ dialog::backdrop {
 .hero{
 width: 240px; 
 height: 240px;
-background: url(assets\card.jpg); 
+background-image: url(assets\card.jpg); 
 background-position:center;
 background-size:cover;
 background-repeat:no-repeat;
