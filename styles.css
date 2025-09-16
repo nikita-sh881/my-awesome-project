@@ -79,10 +79,10 @@ nav:active {
 nav:focus-visible {
   border-color: blue; 
 }
-:link:hover {
+header-item:hover {
   text-color: red; 
 }
-:link:active {
+header-item:active {
   text-color: yellow;
 }
 :link:focus-visible {
