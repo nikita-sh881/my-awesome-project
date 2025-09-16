@@ -79,13 +79,13 @@ nav:active {
 nav:focus-visible {
   border-color: blue; 
 }
-li:hover {
+:link:hover {
   text-color: red; 
 }
-li:active {
+:link:active {
   text-color: yellow;
 }
-li:focus-visible {
+:link:focus-visible {
   border-color: blue; 
 }
 li {
