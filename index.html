@@ -175,7 +175,50 @@
         </div>
       </div>
       <div>
-        <button id="openDialog" type="button">Написать нам</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Написать нам
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Обратная связь</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+                <label for="basic-url" class="form-label">Your vanity URL</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">$</span>
+                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                  <span class="input-group-text">.00</span>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">With textarea</span>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button id="openDialog" type="button">Написать нам</button>
         <dialog id="contactDialog" aria-labelledby="dialogTitle">
           <h2 id="dialogTitle">Обратная связь</h2>
           <form id="contactForm" method="dialog" novalidate>
@@ -204,7 +247,7 @@
               <button type="submit">Отправить</button>
             </div>
           </form>
-        </dialog>
+        </dialog> -->
       </div>
     </footer>
   </div>
